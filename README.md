@@ -15,7 +15,7 @@
 - **Live Deployed Demo**: [https://aster-house-guest-assistant.vercel.app](https://aster-house-guest-assistant.vercel.app)
 - **GitHub Repository**: [https://github.com/Shoryamishra61/aster-house-guest-assistant](https://github.com/Shoryamishra61/aster-house-guest-assistant)
 - **Candidate Name**: Shoryakumar Mishra
-- **Candidate Email**: `shoryamishra68@gmail.com` / `shoryamishra65@gmail.com`
+- **Candidate Email**: `shoryamishra65@gmail.com`
 - **Candidate College**: SRM Institute of Science and Technology (SRMIST), Chennai
 - **Canonical Resume**: [`submission/SHORYAKUMAR_RESUME_New.pdf`](submission/SHORYAKUMAR_RESUME_New.pdf) (68.7 KB, verified one-page PDF)
 
