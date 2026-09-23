@@ -12,6 +12,7 @@
 
 ## 1. Submission & Live Links
 
+- **Live Deployed Demo**: [https://aster-house-guest-assistant.vercel.app](https://aster-house-guest-assistant.vercel.app)
 - **GitHub Repository**: [https://github.com/Shoryamishra61/aster-house-guest-assistant](https://github.com/Shoryamishra61/aster-house-guest-assistant)
 - **Candidate Name**: Shoryakumar Mishra
 - **Candidate Email**: `shoryamishra68@gmail.com` / `shoryamishra65@gmail.com`

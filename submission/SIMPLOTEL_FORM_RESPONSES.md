@@ -14,7 +14,7 @@
 | **Name \*** | `Shoryakumar Mishra` | Canonical Resume (`SHORYAKUMAR_RESUME_New.pdf`) & GitHub |
 | **Contact Number \*** | `+91 84607 11154` | Canonical Resume (`SHORYAKUMAR_RESUME_New.pdf`) |
 | **Code/GitHub Link \*** | `https://github.com/Shoryamishra61/aster-house-guest-assistant` | Public GitHub Repository (Verified 200 OK) |
-| **Deployed Public Link \*** | `https://github.com/Shoryamishra61/aster-house-guest-assistant` *(Evaluator Quick Start: `git clone && npm install && npm run dev` requires 0 keys, runs 100% offline)* | Verified Public Repository |
+| **Deployed Public Link \*** | `https://aster-house-guest-assistant.vercel.app` | Verified Live Production Vercel Deployment (200 OK) |
 | **College Name \*** | `SRM Institute of Science and Technology, Chennai` | Canonical Resume (`SHORYAKUMAR_RESUME_New.pdf`) |
 | **Training Institute \*** | `NA` | Form Requirement (No external institute applies) |
 | **Resume Upload \*** | `submission/SHORYAKUMAR_RESUME_New.pdf` | Verified Local PDF (68,687 bytes / 68.7 KB ≤ 10 MB limit) |
