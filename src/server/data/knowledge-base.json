@@ -1,0 +1,152 @@
+{
+  "hotelInfo": {
+    "name": "Aster House",
+    "location": "142 Walnut Street, Downtown Historic District",
+    "phone": "+1 (555) 328-9100",
+    "email": "frontdesk@asterhousehotel.com",
+    "currency": "USD"
+  },
+  "knowledgeBase": [
+    {
+      "id": "kb_checkin_checkout",
+      "category": "policies",
+      "title": "Check-in and Check-out Times",
+      "aliases": ["check-in", "check-out", "checkin", "check out", "arrival", "departure", "early check in", "late checkout"],
+      "facts": {
+        "checkInTime": "3:00 PM (15:00)",
+        "checkOutTime": "11:00 AM (11:00)",
+        "frontDeskHours": "24 hours daily",
+        "earlyCheckIn": "Subject to room readiness upon arrival; luggage storage is always complimentary.",
+        "lateCheckOut": "Available upon request until 1:00 PM for a $40 fee, subject to availability."
+      },
+      "summary": "Check-in begins at 3:00 PM and check-out is at 11:00 AM. Front desk is staffed 24 hours. Luggage storage is complimentary."
+    },
+    {
+      "id": "kb_breakfast",
+      "category": "amenities",
+      "title": "Breakfast Policy & Dining Hours",
+      "aliases": ["breakfast", "dining", "morning meal", "food", "restaurant", "buffet"],
+      "facts": {
+        "isIncludedByDefault": false,
+        "includedRoomTypes": ["King Deluxe", "Executive Family Suite"],
+        "breakfastPrice": 18,
+        "breakfastCurrency": "USD",
+        "serviceStyle": "Artisan continental buffet & warm à la carte kitchen options",
+        "hoursWeekday": "6:30 AM – 10:00 AM",
+        "hoursWeekend": "7:00 AM – 11:00 AM",
+        "location": "The Garden Conservatory on the ground floor"
+      },
+      "summary": "Breakfast is served in The Garden Conservatory (6:30-10:00 AM weekdays, 7:00-11:00 AM weekends). It is $18 per guest, but included complimentary with King Deluxe and Executive Family Suite bookings."
+    },
+    {
+      "id": "kb_swimming_pool",
+      "category": "amenities",
+      "title": "Swimming Pool",
+      "aliases": ["pool", "swimming", "swim", "towel", "jacuzzi"],
+      "facts": {
+        "hasPool": true,
+        "poolType": "Indoor heated saltwater pool",
+        "hours": "7:00 AM – 10:00 PM daily",
+        "adultOnlyHours": "8:30 PM – 10:00 PM daily",
+        "amenitiesProvided": "Fresh towels, loungers, and filtered water dispensers poolside",
+        "depth": "3.5 ft to 5.5 ft"
+      },
+      "summary": "Aster House features an indoor heated saltwater pool open daily from 7:00 AM to 10:00 PM. Towels are provided poolside."
+    },
+    {
+      "id": "kb_fitness_center",
+      "category": "amenities",
+      "title": "Fitness Center",
+      "aliases": ["gym", "fitness", "workout", "exercise", "treadmill", "weights"],
+      "facts": {
+        "hasFitnessCenter": true,
+        "hours": "Open 24 hours daily with guest room keycard access",
+        "equipment": ["Peloton bikes", "Treadmills", "Ellipticals", "Free weights up to 50 lbs", "Yoga mats"],
+        "access": "Complimentary for all registered guests"
+      },
+      "summary": "A 24-hour fitness center is accessible with your keycard, equipped with Peloton bikes, treadmills, ellipticals, and free weights."
+    },
+    {
+      "id": "kb_parking",
+      "category": "policies",
+      "title": "Parking Facilities & Valet",
+      "aliases": ["parking", "valet", "car", "vehicle", "garage", "ev charging"],
+      "facts": {
+        "parkingType": "Secured valet parking only",
+        "valetRateNightly": 35,
+        "currency": "USD",
+        "inOutPrivileges": true,
+        "evCharging": "Two Level-2 EV charging stations available complimentary for valet guests",
+        "oversizedVehicles": "Self-parking garage located one block away on 2nd Ave for vehicles over 7ft clearance"
+      },
+      "summary": "Valet parking is available for $35 per night with unlimited in/out privileges and complimentary Level-2 EV charging."
+    },
+    {
+      "id": "kb_pet_policy",
+      "category": "policies",
+      "title": "Pet Policy",
+      "aliases": ["pets", "dog", "cat", "animals", "service animals"],
+      "facts": {
+        "petsAllowed": true,
+        "maximumWeightLbs": 45,
+        "petFeePerStay": 50,
+        "feeCurrency": "USD",
+        "rules": "Up to 2 dogs per room. Pets must be leashed in public spaces. Service animals are exempt from fees and weight restrictions.",
+        "amenitiesForPets": "Complimentary dog bed, bowls, and organic treats provided at check-in"
+      },
+      "summary": "Dogs up to 45 lbs are welcome (up to 2 per room) for a one-time fee of $50 per stay. Service animals are exempt from fees."
+    },
+    {
+      "id": "kb_cancellation",
+      "category": "policies",
+      "title": "Cancellation & Deposit Policy",
+      "aliases": ["cancellation", "cancel", "refund", "deposit", "flexible rate"],
+      "facts": {
+        "standardCancellationNotice": "48 hours prior to 3:00 PM local arrival date",
+        "lateCancellationPenalty": "One night's room and tax fee",
+        "noShowPenalty": "Full reservation charged",
+        "depositRequired": "Credit card authorization held at check-in ($50 incidental deposit per night)"
+      },
+      "summary": "Reservations may be cancelled without penalty up to 48 hours before check-in (3:00 PM). Cancellations within 48 hours incur a one-night fee."
+    },
+    {
+      "id": "kb_wifi_internet",
+      "category": "amenities",
+      "title": "Wi-Fi & Internet Access",
+      "aliases": ["wifi", "wi-fi", "internet", "network", "bandwidth"],
+      "facts": {
+        "isComplimentary": true,
+        "speed": "Up to 300 Mbps symmetrical fiber",
+        "coverage": "All guest rooms, meeting spaces, and public hotel areas",
+        "loginRequired": "Select 'AsterHouse-Guest' and enter room number and last name"
+      },
+      "summary": "Complimentary high-speed fiber Wi-Fi is available across all rooms and public spaces without tiered paywalls."
+    },
+    {
+      "id": "kb_contact_location",
+      "category": "property",
+      "title": "Hotel Contact, Location & Front Desk",
+      "aliases": ["contact", "phone", "email", "address", "location", "front desk", "directions"],
+      "facts": {
+        "address": "142 Walnut Street, Downtown Historic District",
+        "phone": "+1 (555) 328-9100",
+        "email": "frontdesk@asterhousehotel.com",
+        "frontDeskAvailability": "Staffed 24/7 in the lobby"
+      },
+      "summary": "Aster House is located at 142 Walnut Street in the Downtown Historic District. The front desk can be reached 24/7 at +1 (555) 328-9100 or frontdesk@asterhousehotel.com."
+    },
+    {
+      "id": "kb_kids_family",
+      "category": "faqs",
+      "title": "Children & Family Accommodations",
+      "aliases": ["kids", "children", "infant", "crib", "family", "cots"],
+      "facts": {
+        "familyFriendly": true,
+        "cribsAvailable": "Complimentary Pack 'n Play cribs available upon advance request",
+        "rollawayBeds": "$25/night, available for King Deluxe and Suite rooms only",
+        "childStayPolicy": "Children aged 12 and under stay free when using existing bedding"
+      },
+      "summary": "Children 12 and under stay free using existing bedding. Complimentary cribs are available upon request; rollaway beds are $25/night in King and Suite rooms."
+    }
+  ]
+}

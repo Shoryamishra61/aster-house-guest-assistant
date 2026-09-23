@@ -1,0 +1,48 @@
+{
+  "rooms": [
+    {
+      "id": "classic-queen",
+      "name": "Classic Queen",
+      "description": "Serene room featuring a plush queen bed, work desk, and walk-in rain shower.",
+      "maxOccupancy": 2,
+      "bedConfiguration": "1 Queen Bed",
+      "baseRate": 185,
+      "currency": "USD",
+      "baseInventory": 5,
+      "amenities": ["Free High-Speed Wi-Fi", "Walk-in Rain Shower", "Espresso Machine", "Work Desk"]
+    },
+    {
+      "id": "king-deluxe",
+      "name": "King Deluxe",
+      "description": "Spacious corner room with a California king bed, sitting area, and complimentary daily breakfast.",
+      "maxOccupancy": 2,
+      "bedConfiguration": "1 California King Bed",
+      "baseRate": 245,
+      "currency": "USD",
+      "baseInventory": 4,
+      "amenities": ["Complimentary Breakfast Included", "California King Bed", "Soaking Tub", "City Views", "Free Wi-Fi"]
+    },
+    {
+      "id": "double-queen-suite",
+      "name": "Double Queen Suite",
+      "description": "Generous family suite with two queen beds, separate living area with sleeper sofa, and dual vanity.",
+      "maxOccupancy": 4,
+      "bedConfiguration": "2 Queen Beds",
+      "baseRate": 310,
+      "currency": "USD",
+      "baseInventory": 3,
+      "amenities": ["Two Queen Beds", "Separate Living Area", "Dual Vanity Bathroom", "Mini Refrigerator", "Free Wi-Fi"]
+    },
+    {
+      "id": "executive-family-suite",
+      "name": "Executive Family Suite",
+      "description": "Our premier two-bedroom suite offering a king master, twin beds, and dining nook for up to five guests.",
+      "maxOccupancy": 5,
+      "bedConfiguration": "1 King Bed + 2 Twin Beds + 1 Daybed",
+      "baseRate": 420,
+      "currency": "USD",
+      "baseInventory": 2,
+      "amenities": ["Two Private Bedrooms", "Dining Nook", "Wet Bar & Refrigerator", "Complimentary Breakfast", "Luxury Linens"]
+    }
+  ]
+}

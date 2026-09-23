@@ -1,0 +1,225 @@
+{
+  "hotelName": "Aster House",
+  "generatedAt": "2026-09-23T11:25:00Z",
+  "status": "VERIFIED_CANONICAL",
+  "canonicalFacts": [
+    {
+      "factId": "property.checkInTime",
+      "canonicalValue": "3:00 PM (15:00)",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.checkInTime",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "semanticInterpreter.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "property.checkOutTime",
+      "canonicalValue": "11:00 AM (11:00)",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.checkOutTime",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "semanticInterpreter.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "property.frontDeskHours",
+      "canonicalValue": "24 hours daily (Staffed 24/7 in the lobby)",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.frontDeskHours",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts"]
+    },
+    {
+      "factId": "property.earlyCheckIn",
+      "canonicalValue": "Subject to room readiness upon arrival; luggage storage is always complimentary.",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.earlyCheckIn",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "property.lateCheckOut",
+      "canonicalValue": "Available upon request until 1:00 PM for a $40 fee, subject to availability.",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.lateCheckOut",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "property.address",
+      "canonicalValue": "142 Walnut Street, Downtown Historic District",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "hotelInfo.location",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "conversationalRegression.test.ts"]
+    },
+    {
+      "factId": "property.phone",
+      "canonicalValue": "+1 (555) 328-9100",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "hotelInfo.phone",
+      "usedBy": ["answerPlanner.ts", "RoomResults.tsx", "conversationalRegression.test.ts"]
+    },
+    {
+      "factId": "property.email",
+      "canonicalValue": "frontdesk@asterhousehotel.com",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "hotelInfo.email",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "amenity.pool.existence",
+      "canonicalValue": true,
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_swimming_pool].facts.hasPool",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts"]
+    },
+    {
+      "factId": "amenity.pool.type",
+      "canonicalValue": "Indoor heated saltwater pool",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_swimming_pool].facts.poolType",
+      "usedBy": ["answerPlanner.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "amenity.pool.hours",
+      "canonicalValue": "7:00 AM – 10:00 PM daily",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_swimming_pool].facts.hours",
+      "usedBy": ["answerPlanner.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "amenity.pool.adultOnlyHours",
+      "canonicalValue": "8:30 PM – 10:00 PM daily",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_swimming_pool].facts.adultOnlyHours",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "amenity.wifi",
+      "canonicalValue": "Complimentary up to 300 Mbps symmetrical fiber across all rooms and public areas",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_wifi_internet].facts",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "dining.breakfast.price",
+      "canonicalValue": 18,
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_breakfast].facts.breakfastPrice",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "dining.breakfast.inclusionRules",
+      "canonicalValue": "Complimentary for King Deluxe and Executive Family Suite bookings; otherwise $18 per guest",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_breakfast].facts.includedRoomTypes",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "dining.breakfast.hoursWeekday",
+      "canonicalValue": "6:30 AM – 10:00 AM",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_breakfast].facts.hoursWeekday",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts"]
+    },
+    {
+      "factId": "dining.breakfast.hoursWeekend",
+      "canonicalValue": "7:00 AM – 11:00 AM",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_breakfast].facts.hoursWeekend",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "dining.breakfast.location",
+      "canonicalValue": "The Garden Conservatory on the ground floor",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_breakfast].facts.location",
+      "usedBy": ["answerPlanner.ts", "conversationalRegression.test.ts"]
+    },
+    {
+      "factId": "policy.parking.price",
+      "canonicalValue": 35,
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_parking].facts.valetRateNightly",
+      "usedBy": ["answerPlanner.ts", "mockClient.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "policy.parking.type",
+      "canonicalValue": "Secured valet parking only ($35/night with in/out privileges)",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_parking].facts.parkingType",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "amenity.evCharging",
+      "canonicalValue": "Two Level-2 EV charging stations complimentary for valet guests",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_parking].facts.evCharging",
+      "usedBy": ["answerPlanner.ts"]
+    },
+    {
+      "factId": "policy.pet.allowed",
+      "canonicalValue": "Dogs up to 45 lbs welcome (max 2 dogs per room)",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_pet_policy].facts",
+      "usedBy": ["answerPlanner.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "policy.pet.fee",
+      "canonicalValue": 50,
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_pet_policy].facts.petFeePerStay",
+      "usedBy": ["answerPlanner.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "policy.cancellation.notice",
+      "canonicalValue": "48 hours prior to 3:00 PM local arrival date",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_cancellation].facts.standardCancellationNotice",
+      "usedBy": ["answerPlanner.ts", "conversationalRegression.test.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "policy.cancellation.penalty",
+      "canonicalValue": "One night's room and tax fee if cancelled within 48 hours; full stay for no-show",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_cancellation].facts.lateCancellationPenalty",
+      "usedBy": ["answerPlanner.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "policy.luggageStorage",
+      "canonicalValue": "Complimentary before check-in and after check-out at the 24/7 front desk",
+      "sourceFile": "src/server/data/knowledge-base.json",
+      "sourcePath": "knowledgeBase[id=kb_checkin_checkout].facts.earlyCheckIn",
+      "usedBy": ["answerPlanner.ts", "multilingualDialogue.test.ts"]
+    },
+    {
+      "factId": "rooms.catalog",
+      "canonicalValue": [
+        {
+          "id": "classic-queen",
+          "name": "Classic Queen",
+          "bedConfiguration": "1 Queen Bed",
+          "maxOccupancy": 2,
+          "baseRate": 185
+        },
+        {
+          "id": "king-deluxe",
+          "name": "King Deluxe",
+          "bedConfiguration": "1 California King Bed",
+          "maxOccupancy": 2,
+          "baseRate": 245
+        },
+        {
+          "id": "double-queen-suite",
+          "name": "Double Queen Suite",
+          "bedConfiguration": "2 Queen Beds",
+          "maxOccupancy": 4,
+          "baseRate": 310
+        },
+        {
+          "id": "executive-family-suite",
+          "name": "Executive Family Suite",
+          "bedConfiguration": "1 King Bed + 2 Twin Beds + 1 Daybed",
+          "maxOccupancy": 5,
+          "baseRate": 420
+        }
+      ],
+      "sourceFile": "src/server/data/rooms.json",
+      "sourcePath": "rooms",
+      "usedBy": ["answerPlanner.ts", "inventory.ts", "router.ts", "conversationalRegression.test.ts"]
+    }
+  ]
+}
