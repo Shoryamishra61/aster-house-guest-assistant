@@ -2,15 +2,25 @@
 
 > **A grounded, full-stack AI hotel guest assistant built with strict domain boundaries: The LLM handles language; deterministic software owns hotel truth and room availability.**
 
-![Aster House Assistant](https://img.shields.io/badge/Release-Passing-1F5A5A?style=flat-square)
-![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue?style=flat-square)
-![Vitest](https://img.shields.io/badge/Tests-104%2F104%20Passing-success?style=flat-square)
-![Evaluation](https://img.shields.io/badge/Golden%20Evals-20%2F20%20Observed-1F5A5A?style=flat-square)
-![Anti--Slop](https://img.shields.io/badge/Anti--Slop%20Design-Score%2010%2F10-success?style=flat-square)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/Shoryamishra61/aster-house-guest-assistant)
+[![Vitest](https://img.shields.io/badge/Tests-255%2F255%20Passing-success?style=flat-square)](https://github.com/Shoryamishra61/aster-house-guest-assistant)
+[![Playwright](https://img.shields.io/badge/Playwright%20E2E-6%2F6%20Passing-success?style=flat-square)](https://github.com/Shoryamishra61/aster-house-guest-assistant)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Strict%20Verified-blue?style=flat-square)](https://github.com/Shoryamishra61/aster-house-guest-assistant)
+[![Evaluation](https://img.shields.io/badge/Golden%20Evals-20%2F20%20Observed-1F5A5A?style=flat-square)](https://github.com/Shoryamishra61/aster-house-guest-assistant)
 
 ---
 
-## 1. Quick Start (< 2 minutes)
+## 1. Submission & Live Links
+
+- **GitHub Repository**: [https://github.com/Shoryamishra61/aster-house-guest-assistant](https://github.com/Shoryamishra61/aster-house-guest-assistant)
+- **Candidate Name**: Shoryakumar Mishra
+- **Candidate Email**: `shoryamishra68@gmail.com` / `shoryamishra65@gmail.com`
+- **Candidate College**: SRM Institute of Science and Technology (SRMIST), Chennai
+- **Canonical Resume**: [`submission/SHORYAKUMAR_RESUME_New.pdf`](submission/SHORYAKUMAR_RESUME_New.pdf) (68.7 KB, verified one-page PDF)
+
+---
+
+## 2. Quick Start (< 2 minutes)
 
 ```bash
 # 1. Install dependencies
@@ -163,10 +173,10 @@ curl -X GET http://localhost:3000/api/health
 All 20 golden test scenarios have been automated and verified:
 
 ```bash
-# Run full automated test suite (Unit, Integration, UI: 40 tests)
+# Run full automated test suite (Unit, Integration, UI, Multilingual, Security: 255 tests across 13 suites)
 npm run test
 
-# Run Playwright E2E browser tests (3 workflows)
+# Run Playwright E2E browser tests (6 workflows: FAQ, Availability, Fallback, Feedback, Ops, Ingestion)
 npm run test:e2e
 
 # Run TypeScript typecheck

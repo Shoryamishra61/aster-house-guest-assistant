@@ -1,0 +1,21 @@
+{
+  "email": "shoryamishra68@gmail.com",
+  "name": "Shoryakumar Mishra",
+  "contactNumber": "+91 84607 11154",
+  "codeGitHubLink": "https://github.com/Shoryamishra61/aster-house-guest-assistant",
+  "deployedPublicLink": "https://github.com/Shoryamishra61/aster-house-guest-assistant",
+  "collegeName": "SRM Institute of Science and Technology, Chennai",
+  "trainingInstitute": "NA",
+  "resumeFile": "submission/SHORYAKUMAR_RESUME_New.pdf",
+  "resumeSizeBytes": 68687,
+  "status": "READY_FOR_EVALUATOR",
+  "verification": {
+    "truthAudit": "PASS",
+    "vitest": "255/255 PASS",
+    "playwright": "6/6 PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS",
+    "secretScan": "PASS"
+  }
+}
